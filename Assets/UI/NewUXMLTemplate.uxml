@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/NewUSSFile.uss?fileID=7433441132597879392&amp;guid=911ae8b5fb555204499f9a1de2543781&amp;type=3#NewUSSFile" />
+    <ui:VisualElement style="flex-grow: 1; justify-content: center; align-self: auto; align-items: center;">
+        <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PlayButton" class="menuButton" style="transition-property: all; transition-duration: 0s; transition-timing-function: ease; transition-delay: 0s;" />
+        <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" class="menuButton" />
+        <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" class="menuButton" />
+    </ui:VisualElement>
+    <ui:VisualElement name="ModalWindow" class="leftWindow" />
+</ui:UXML>

@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ShieldWall_VFX
+  m_Shader: {fileID: -6465566751694194690, guid: 2af242383f035fd4cab978d169259a88,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseShape:
+        m_Texture: {fileID: 2800000, guid: e0e1c0fe640111544931743e91ceca15, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMaskMap:
+        m_Texture: {fileID: 2800000, guid: 3a389f41d2c62da41bff10338aa26c85, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseMap:
+        m_Texture: {fileID: 2800000, guid: 3d366efaaefef2c469e9cf1250e817ca, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BaseShapePower: 0.1
+    - _BaseShapeSpeed: -0.02
+    - _BaseShapeTiling: 10
+    - _Distance: 0.23
+    - _LineYOffset: -0
+    - _MaskYOffset: 15
+    - _MaskYPower: 0.05
+    - _NoiseBorderPower: 0.2
+    - _NoiseSpeed: -0.05
+    - _NoiseTiling: 10
+    - _PushStrength: 0.5
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    m_Colors:
+    - _Color: {r: 24.251463, g: 0, b: 0, a: 1}
+    - _DistanceRemap: {r: 0.7, g: 1, b: 0, a: 0}
+    - _LineRemap: {r: 0.94, g: 1, b: 0, a: 0}
+    - _MaskYRemap: {r: 0, g: 20, b: 0, a: 0}
+    - _NoiseBorderRemap: {r: 0.75, g: 1, b: 0, a: 0}
+    - _NoiseClipRemap: {r: 0.98, g: 1, b: 0, a: 0}
+    - _NoiseDistanceRemap: {r: 0.15, g: 0.75, b: 0, a: 0}
+    - _ObjectPosOffset: {r: 0, g: 0.7, b: 0, a: 0}
+    - _Offset: {r: 0, g: -0, b: 0, a: 0}
+    - _PushRemap: {r: 0, g: 0.6, b: 0, a: 0}
+    - _Tiling: {r: 1, g: 10, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &8102942647037177382
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9

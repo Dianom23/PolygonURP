@@ -1,0 +1,47 @@
+.menuButton {
+    height: 71px;
+    width: 332px;
+    text-overflow: clip;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    -unity-font-style: bold;
+    font-size: 52px;
+    -unity-text-outline-color: rgba(0, 0, 0, 0);
+    background-color: rgb(207, 159, 159);
+    -unity-background-scale-mode: stretch-to-fill;
+    border-top-width: 4px;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+    border-left-color: rgb(187, 243, 192);
+    border-right-color: rgb(187, 243, 192);
+    border-top-color: rgb(187, 243, 192);
+    border-bottom-color: rgb(187, 243, 192);
+    margin-bottom: 47px;
+}
+
+.leftWindow {
+    flex-grow: 1;
+    display: flex;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 268px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.68);
+    border-top-left-radius: 18%;
+    border-top-right-radius: 18%;
+    border-bottom-right-radius: 18%;
+    border-bottom-left-radius: 18%;
+    translate: -500px 0;
+    transform-origin: center;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-bounce;
+}
+
+.rightWindow {
+    translate: 0 0;
+    transition-timing-function: ease-in-bounce;
+}
